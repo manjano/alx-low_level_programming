@@ -5,7 +5,7 @@
  * main - A program that assigns a random number to the variable
  * Return: 0 (successful)
  */
-int main (void)
+int main(void)
 {
 	int n, lastNum;
 
