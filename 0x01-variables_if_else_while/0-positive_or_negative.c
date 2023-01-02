@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main - A program that prints if random number is +tive, zero, or -tive
  * Return: 0 (successful)
