@@ -6,28 +6,28 @@
 int main(void)
 {
 	int x;
+	int a;
 	int y;
-	int z;
 
 	for (x = 74; x < 84; x++)
 	{
-		for (y = 74; y < 84; y++)
+		for (a = 74; a < 84; a++)
 		{
-			if (y > x)
+			if (a > x)
 			{
-				for (z = 74; z < 84; z++)
+				for (y = 74; y < 84; y++)
 				{
-					if (z > y)
+					if (y > a)
 					{
-						putchar(x);
-						putchar(y);
-						putchar(z);
-						if (x == 81 && y == 82 && z == 83)
-						{
-							break;
-						}
-						putchar(',');
-						putchar(' ');
+					putchar(x);
+					putchar(a);
+					putchar(y);
+					if (x == 81 && a == 82 && y == 83)
+					{
+						break;
+					}
+					putchar(',');
+					putchar(' ');
 					}
 				}
 			}
